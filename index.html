@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Navigation Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Trirong:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script type="text/javascript" src="myJs.js"></script>
+  </head>
+  <body>
+    
+    <header>
+      <a href="#" class="logo"><span>P</span>cls<span>.</span></a>
+      <ul class="navigation">
+        <li class="active"><a href="">HOME</a></li>
+        <li class="AboutUsCenter"><a href="#about-us">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#bookdelivery">DELIVERY</a></li>
+      </ul>
+    </header>
+    
+    <section class="home" id="home">
+      <div class="tittle">
+        <h1 class="tittleText">PHILLIP COURIER AND LOGISTICS <br />SERVICES</h1>
+        <p>choose us when it comes to choosing the best logistics services for your business.</p>
+      </div>
+
+      <div class="content">
+        <div class="box">
+         <div class="imgBox">
+          <img
+            src="images/phillipdelivery guy.jpg"
+            alt="a delivery guy"/>
+         </div>
+         <div class="imgtext">
+          <h3>We pick up orders</h3>
+         </div>
+        </div>
+        <div class="box">
+          <div class="imgBox">
+           <img
+             src="images/phillipswift delivery.png"
+             alt="swift deliveries"/>
+          </div>
+          <div class="imgtext">
+           <h3>We deliver swiftly</h3>
+          </div>
+         </div>
+         <div class="box">
+          <div class="imgBox">
+           <img
+             src="images/phillipdoorstep delivery.jpg"
+             alt="doorstep deliveries"/>
+          </div>
+          <div class="imgtext">
+           <h3>We deliver to your doorstep</h3>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="aboutUs text">
+        <h1>About Us</h1>
+      </div>
+      <div class="lineStory-container">
+        <div class="line1"></div>
+        <div class="linetext">OUR STORY</div>
+        <div class="line2"></div>
+      </div>
+      <div class="aboutUs-longtext">
+        <p>
+          Welcome to Phillip Courier and Logistics Services! With a legacy of
+          excellence spanning over four years, we are your trusted partner in
+          seamless and efficient delivery solutions. <br />Our commitment to
+          precision, reliability, and customer satisfaction sets us apart in
+          the industry. At Phillip Courier, we understand the importance of
+          timely and secure deliveries. Our expert team, state-of-the-art
+          technology, and vast network ensure that your parcels and goods
+          reach their destinations with utmost care and accuracy. <br />We
+          render same day local delivery services, we cater to diverse needs
+          with a personalized touch. We take pride in our dedicated workforce,
+          cutting-edge tracking systems, and sustainable practices that
+          prioritize both your convenience and the environment. As a
+          customer-centric organization, we continuously strive to exceed
+          expectations and redefine industry standards. Join us in shaping the
+          future of logistics by choosing Phillip Courier. Experience
+          excellence in motion. Your delivery, our commitment.
+        </p>
+        <div class="empty-space"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contactTittle">
+      <h1 class="contactTittleText">Contact us</h1>
+      <p>For quick and instant response, please reach us via <strong>whatsApp</strong></p>
+    </div>
+    <botton onclick="myfunction()" class="whatsappBtn1" name="whatsappBtn" >WHAT'S APP</botton>
+    <div class="content">
+    <div class="contactForm">
+      <h3>send us message</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="inputBox">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="inputBox">
+        <textarea placeholder="write your messages here"></textarea> 
+      </div>
+      <div class="inputBox">
+        <input type="submit" class="submit" value="Send">
+      </div>
+    </div>
+    <div class="socialMedia">
+      <div class="facebook">
+        <i class="fa-brands fa-facebook"></i>
+        <p class="faText">@philliplogistics</p>
+      </div>
+      <div class="whatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <p class="faText">@08166220389</p>
+      </div>
+      <div class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+        <p class="faText">@philliplogistics</p>
+      </div>
+      <div class="twitter">
+        <i class="fa-brands fa-twitter"></i>
+        <p class="faText">@philliplogistics</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="delivery" id="bookdelivery">
+   <div class="deliveryContent">
+    <div class="deliveryTittle">
+      <h1>Booking Your Delivery</h1>
+      <p>
+        Please Use Our WhatsApp Handle For Enqiures, And For Quick
+        And Fast Delivery Booking
+      </p>
+      <p class="bottonText">Click The Botton Bellow To Chat us directly on WhatsApp</p>
+      <botton onclick="myfunction()" id="whatsappBtn" name="whatsappBtn" >WHAT'S APP</botton>
+    </div>
+    <div class="deliveryBodyText">
+      <p>
+        <span class="thankyou">You can also put a call across to us on <br />
+        <span class="number">08100540717, 08166220389, 07048945520</span></span><br /><span class="thankyou">
+          THANK YOU FOR YOUR PATRONAGE</span>
+      </p>
+   </div>
+  </div>
+  </section>
+
+  </body>
+</html>
